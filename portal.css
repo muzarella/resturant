@@ -1,0 +1,96 @@
+body{
+	font-family: Roboto;
+}
+
+.btn-x{
+	float: right;
+	background-color: transparent;
+	border: none;
+	text-transform: bold;
+	cursor: pointer;
+}
+.container{
+	width: 400px;
+	padding: 10px 10px 10px 35px;
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.24);
+	display: none;
+	position: absolute;
+	background-color: white;
+	margin-left: 35%;
+}
+
+.header-text{
+	color: crimson;
+	text-align: center;
+}
+
+.short-text{
+	width: 42%;
+	height: 30px;
+	padding: 5px;
+	border: 2px solid #ccc;
+	font-size: 1.2em;
+	color: crimson;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.area-code{
+	width: 9%;
+	height: 30px;
+	padding: 5px;
+	font-size: 1.2em;
+	border: 2px solid #ccc;
+	color: #ccc;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.mobile{
+	width: 75%;
+	height: 30px;
+	padding: 5px;
+	font-size: 1.2em;
+	border: 2px solid #ccc;
+	color: crimson;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.long-text{
+	width: 88%;
+	height: 30px;
+	padding: 5px;
+	border: 2px solid #ccc;
+	font-size: 1.2em;
+	color: crimson;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+
+.btn-login{
+	width: 30%;
+	text-align: center;
+	color: white;
+	background-color: crimson;
+	border: 1px solid crimson;
+	border-radius: 3px;
+	padding: 10px;
+	font-size: 1.2em;
+	margin-left: 35%;
+	margin-bottom: 10px;
+}
+
+.btn-login:hover{
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.24);
+	background-color: #bb1133;
+	border: 1px solid #bb1133;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.norm-text{
+	font-size: 1.2em;
+	color: #ccc;
+	text-align: center;
+}

@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title></title>
+		<link rel="stylesheet" type="text/css" href="portal.css" />
+		<link rel="stylesheet" type="text/css" href="font/font.css?family=Roboto:400,300,500,400italic,700" />
+		<script src="jquery.min.js">
+		</script>
+		<script>
+			$(document).ready(function(){
+				$("#showbtn").click(function(){
+				$("#container").slideDown("slow");
+				});
+				
+				$("#closebtn").click(function(){
+					$("#container").slideUp("slow");
+				});
+			});
+		</script>
+    </head>
+    <body>
+		
+		<button type="button" id="showbtn">SHOW</button>
+		<div class="container" id="container">
+			<button type="button" class="btn-x" id="closebtn">X</button>
+				<div>
+					<h1 class="header-text">Sign up</h1>
+					<div>
+						<form>
+								<div>
+									<span>
+										<input required="required" placeholder="First name" type="text" name="fname" class="short-text"/>
+									</span>
+									<span>
+										<input required="required" placeholder="Last name" type="text" name="lname" class="short-text"/>
+									</span>
+								</div>
+								<div>
+									<span>
+										<input required="required" value="234" type="text" class="area-code"/>
+									</span>
+									<span>
+										<input required="required" placeholder="Mobile" type="text" class="mobile"/>
+									</span>
+								</div>
+							<div>
+								<input required="required" placeholder="Email" type="email" class="long-text" />
+							</div>
+							<div>
+									<div>
+										<input required="required" placeholder="Password" autocomplete="off" type="password" class="long-text"/>
+									</div>
+									<div>
+										<input required="required" placeholder="Repeat password" autocomplete="off" type="password" class="long-text" />
+									</div>
+								</div>
+							<div>
+								<button type="submit" class="btn-login">Sign up</button>
+							</div>
+						</form>
+					</div>
+					<hr width="80%" />
+					<p class="norm-text">
+						<span>Already Registered?</span><br />
+						<a href="#">Log in</a>
+					</p>
+				</div>
+			</div>
+    </body>
+</html>
